@@ -1,0 +1,29 @@
+{
+  "name": "la-bibliotheque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start-dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarpongkb/la-bibliotheque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarpongkb/la-bibliotheque/issues"
+  },
+  "homepage": "https://github.com/sarpongkb/la-bibliotheque#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-router": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
