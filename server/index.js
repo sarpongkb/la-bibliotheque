@@ -1,10 +1,12 @@
 const express = require("express");
 
-const meRouter = require("./routes/me");
+const users = require("./routes/users");
+const sessions = require("./routes/sessions");
 
 const app = express();
 
-app.use("/me", meRouter);
+app.use("/users", users);
+app.use("/sessions", sessions);
 
 app.get("/", (req, res) => res.send("Bonjour la biblio"));
 
