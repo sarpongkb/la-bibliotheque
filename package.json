@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/sarpongkb/la-bibliotheque#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "express-router": "0.0.1"
+    "express": "^4.16.2"
   },
   "devDependencies": {
     "nodemon": "^1.14.11"
